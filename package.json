@@ -1,0 +1,27 @@
+{
+  "name": "xecoy-theme",
+  "displayName": "Xecoy Theme",
+  "description": "It's nice dark theme.",
+  "author": {
+    "name": "AXH-xecoy"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xecoy Web Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Xecoy Web Dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": ""
+  }
+}
