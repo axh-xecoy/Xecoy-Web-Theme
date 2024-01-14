@@ -1,16 +1,11 @@
-# xecoy-theme README
+# Xecoy-Web-Theme README
 
-## Working with Markdown
+## 以下是这款主题的介绍
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+* 本主题借鉴了IDEA的界面配色方案，看起来会和IDEA比较相似
+* 本主题对终端进行了美化处理，采用了绿色护眼的配色方案
+* 本主题主要对Web开发提供美化支持，同时会对主流编程语言做代码高亮支持
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 本主题代码开源
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+* [点击此处打开Github，定位到本开源项目](https://github.com/AXH-xy/Xecoy-Web-Theme)

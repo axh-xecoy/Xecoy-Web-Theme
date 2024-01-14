@@ -1,7 +1,7 @@
 {
   "name": "xecoy-theme",
   "displayName": "Xecoy Theme",
-  "description": "It's nice dark theme, Mainly used for the web development",
+  "description": "It's nice dark theme, Mainly used for the web development.\n这是一款好看的深色主题，主要对Web开发提供高亮美化",
   "author": {
     "name": "AXH-xecoy"
   },
@@ -24,5 +24,6 @@
   "repository": {
     "url": "https://github.com/AXH-xy/Xecoy-Web-Theme"
   },
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "publisher": "Xecoy Studio"
 }
