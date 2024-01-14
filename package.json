@@ -1,11 +1,11 @@
 {
   "name": "xecoy-theme",
   "displayName": "Xecoy Theme",
-  "description": "It's nice dark theme.",
+  "description": "It's nice dark theme, Mainly used for the web development",
   "author": {
     "name": "AXH-xecoy"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -22,6 +22,7 @@
     ]
   },
   "repository": {
-    "url": ""
-  }
+    "url": "https://github.com/AXH-xy/Xecoy-Web-Theme"
+  },
+  "icon": "icon.png"
 }

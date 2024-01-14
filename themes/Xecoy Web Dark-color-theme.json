@@ -88,7 +88,7 @@
 		"editorLink.activeForeground":"#f78dff",
 		"editorWhitespace.foreground":"#FFFFFF16",
 		"editorRuler.foreground":"#2b2d30",
-		"editorCodeLens.foreground":"#FFFFFF10",
+		"editorCodeLens.foreground":"#FFFFFF30",
 		"editorLightBulb.foreground":"#FFFF00",
 		"editorLightBulbAutoFix.foreground":"#FFFF00",
 		"editorLightBulbAi.foreground":"#FFFF00",
@@ -97,22 +97,22 @@
 		"editorBracketHighlight.foreground1":"#cf9977",
 		"editorBracketHighlight.foreground2":"#D7BA7D",
 		"editorBracketHighlight.foreground3":"#6AAA70",
-		"editorBracketHighlight.foreground4":"#70c0c0",
+		"editorBracketHighlight.foreground4":"#60b7b7",
 		"editorBracketHighlight.foreground5":"#55A0D0",
-		"editorBracketHighlight.foreground6":"#CB88DE",
+		"editorBracketHighlight.foreground6":"#C985DB",
 		"editorBracketHighlight.unexpectedBracket.foreground":"#DA5050",
 		"editorBracketPairGuide.background1":"#cf997730",
 		"editorBracketPairGuide.background2":"#D7BA7D30",
 		"editorBracketPairGuide.background3":"#6AAA7030",
-		"editorBracketPairGuide.background4":"#70c0c030",
+		"editorBracketPairGuide.background4":"#60b7b730",
 		"editorBracketPairGuide.background5":"#55A0D030",
-		"editorBracketPairGuide.background6":"#CB88DE30",
+		"editorBracketPairGuide.background6":"#C985DB30",
 		"editorBracketPairGuide.activeBackground1":"#cf9977A0",
 		"editorBracketPairGuide.activeBackground2":"#D7BA7DA0",
 		"editorBracketPairGuide.activeBackground3":"#6AAA70A0",
-		"editorBracketPairGuide.activeBackground4":"#70c0c0A0",
+		"editorBracketPairGuide.activeBackground4":"#60b7b7A0",
 		"editorBracketPairGuide.activeBackground5":"#55A0D0A0",
-		"editorBracketPairGuide.activeBackground6":"#CB88DEA0",
+		"editorBracketPairGuide.activeBackground6":"#C985DBA0",
 		"editor.foldBackground":"#FFFFFF00",
 		"editorOverviewRuler.background":"#FFFFFF00",
 		"editorOverviewRuler.border":"#FFFFFF00",
@@ -134,7 +134,7 @@
 		"editorHint.border":"#FFFFFF00",
 		"problemsErrorIcon.foreground":"#DA5050",
 		"problemsWarningIcon.foreground":"#D7BA7D",
-		"problemsInfoIcon.foreground":"#70c0c0",
+		"problemsInfoIcon.foreground":"#60b7b7",
 		"editorUnnecessaryCode.border":"#FFFFFF00",
 		"editorUnnecessaryCode.opacity":"#000000A0",
 		"editorGutter.background":"#1E1F22",
@@ -216,12 +216,12 @@
 		"notifications.border":"#FFFFFF10",
 		"notificationsErrorIcon.foreground":"#DA5050",
 		"notificationsWarningIcon.foreground":"#D7BA7D",
-		"notificationsInfoIcon.foreground":"#70c0c0",
+		"notificationsInfoIcon.foreground":"#60b7b7",
 		"banner.background":"#2b2d30",
-		"banner.iconForeground":"#CB88DE",
+		"banner.iconForeground":"#C985DB",
 		"extensionButton.separator":"#FFFFFF10",
-		"extensionIcon.verifiedForeground":"#CB88DE",
-		"extensionIcon.sponsorForeground":"#CB88DE",
+		"extensionIcon.verifiedForeground":"#C985DB",
+		"extensionIcon.sponsorForeground":"#C985DB",
 		"inputValidation.errorBackground":"#2b2d30",
 		"inputValidation.errorBorder": "#FFFFFF10",
 		"inputValidation.errorForeground":"#DA5050",
@@ -230,7 +230,7 @@
 		"inputValidation.warningForeground":"#D7BA7D",
 		"inputValidation.infoBackground":"#2b2d30",
 		"inputValidation.infoBorder": "#FFFFFF10",
-		"inputValidation.infoForeground":"#70c0c0",
+		"inputValidation.infoForeground":"#60b7b7",
 		"input.background":"#1e1f22",
 		"input.border":"#FFFFFF10",
 		"inputOption.activeBackground":"#2b2d30",
@@ -248,7 +248,7 @@
 		"terminal.background":"#1e1f22",
 		"terminal.border":"#FFFFFF10",
 		"terminal.foreground":"#6AAA70",
-		"terminal.selectionBackground":"#FFFFFF16",
+		"terminal.selectionBackground":"#FFFFFF25",
 		"terminal.findMatchBackground":"#CE6f30",
 		"terminal.findMatchHighlightBackground":"#FFFFFF00",
 		"terminal.findMatchHighlightBorder":"#CE6f30",
@@ -257,17 +257,17 @@
 		"terminalCommandDecoration.errorBackground":"#DA5050",
 		"terminal.ansiBlack":"#2b2d30",
 		"terminal.ansiBlue":"#55A0D0",
-		"terminal.ansiCyan":"#70c0c0",
+		"terminal.ansiCyan":"#60b7b7",
 		"terminal.ansiGreen":"#6AAA70",
-		"terminal.ansiMagenta":"#CB88DE",
+		"terminal.ansiMagenta":"#C985DB",
 		"terminal.ansiRed":"#DA5050",
 		"terminal.ansiWhite":"#CCCCCC",
 		"terminal.ansiYellow":"#cf9977",
 		"terminal.ansiBrightBlack":"#2b2d30",
 		"terminal.ansiBrightBlue":"#55A0D0",
-		"terminal.ansiBrightCyan":"#70c0c0",
+		"terminal.ansiBrightCyan":"#60b7b7",
 		"terminal.ansiBrightGreen":"#6AAA70",
-		"terminal.ansiBrightMagenta":"#CB88DE",
+		"terminal.ansiBrightMagenta":"#C985DB",
 		"terminal.ansiBrightRed":"#DA5050",
 		"terminal.ansiBrightWhite":"#CCCCCC",
 		"terminal.ansiBrightYellow":"#cf9977",
@@ -283,7 +283,7 @@
 		"gitDecoration.stageModifiedResourceForeground":"#55A0D0",
 		"gitDecoration.renamedResourceForeground":"#D7BA7D",
 		"gitDecoration.stageDeletedResourceForeground":"#DA5050",
-		"gitDecoration.untrackedResourceForeground":"#CB88DE",
+		"gitDecoration.untrackedResourceForeground":"#C985DB",
 		"gitDecoration.ignoredResourceForeground":"#DDDDDD",
 		"settings.modifiedItemIndicator":"#FFFFFF80",
 		"settings.dropdownBackground":"#2b2d30",
@@ -308,6 +308,229 @@
 		"editor.snippetTabstopHighlightBorder":"#FFFFFF50"
 	},
 	"tokenColors": [
-
+		{
+			"name": "注释",
+			"scope":"comment",
+			"settings": {
+				"foreground": "#707070",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "常量值",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#60b7b7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "关键字",
+			"scope":"keyword",
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "非法字符",
+			"scope":"invalid",
+			"settings": {
+				"foreground": "#DA5050",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "标记文本",
+			"scope":"markup",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "常规数据",
+			"scope":"meta",
+			"settings": {
+				"foreground": "#CCCCCC",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "结构与对象",
+			"scope":"storage",
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "字符串",
+			"scope": "string",
+			"settings": {
+				"foreground": "#6AAA70",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "框架",
+			"scope": "support",
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		//联合调色
+		{
+			"scope":[
+				"keyword.operator", //操作符样式
+				"variable.parameter.keyframe-list", //@Keyframes名称颜色
+				"punctuation.definition.entity" //CSS选择器符号样式
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.function-call entity.name.function", //以调用形式的函数名样式
+				"source support.function", //css方法
+				"entity.other.keyframe-offset", //CSS form to样式
+				"keyword.operator.logical" //CSS and样式
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"meta.function.definition entity.name.function", //声明函数的函数名样式
+				"meta.definition.function", //声明函数的函数名样式
+				"meta.definition.method", //声明方法的函数名样式
+				"keyword.control.at-rule", //CSS@规则样式
+				"support.constant" //CSS常量名如screen
+			],
+			"settings": {
+				"foreground": "#C985DB",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"constant.character.escape", //转义字符样式
+				"constant.other.character-class.regexp", //正则表达式转义字符样式
+				"keyword.control.anchor.regexp", //正则表达式关键转义字符颜色
+				"constant.other.color", //CSS颜色字符样式
+				"support.constant.color" //CSS颜色字符样式
+			],
+			"settings": {
+				"foreground": "#D7BA7D",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.name.tag", //html标签样式
+				"meta.definition.variable", //声明变量名称样式
+				"meta.definition.variable variable.other.constant", //声明常量时的变量名称样式
+				"variable.other.property", //调用对象属性名称样式
+				"variable.object.property", //类属性名称样式
+				"variable.parameter", //函数参数名样式
+				"meta.selector entity.other.attribute-name", //CSS中的其他选择器样式
+				"meta.selector entity.name.tag" //CSS中的元素选择器样式
+			],
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"variable.other.constant.property", //调用对象常量属性名称样式
+				"variable.other.enummember" //枚举类对象名称样式
+			],
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"keyword.operator.new", //new关键字样式
+				"variable.language.this", //this关键字样式
+				"variable.language.super", //super关键字样式
+				"keyword.operator.expression", //of,instanceof,in等关键字
+				"entity.other.attribute-name", //html元素属性名称样式
+				"keyword.operator.quantifier.regexp", //正则表达式控制出现频率{0,?}
+				"string.regexp punctuation.definition.string", //正则表达式斜线颜色
+				"keyword.other" //正则表达式匹配类型颜色
+			],
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"constant.language", //json boolean & null 颜色
+				"constant.language.boolean.true", //true值 颜色
+				"constant.language.boolean.false", //false值 颜色
+				"constant.language.null", //null常量样式
+				"variable.argument.css", //css变量名称样式
+				"variable.css" //css变量名称样式
+			],
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"punctuation.definition.tag.begin", //html括号样式
+				"punctuation.definition.tag.end"
+			],
+			"settings": {
+				"foreground": "#A0A0A0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"keyword.other.unit", //CSS百分比px等符号样式
+				"punctuation.definition.group.regexp", //正则表达式圆括号样式
+				"meta.group.regexp", //正则表达式圆括号组结构
+				"keyword.operator.or.regexp" //正则表达式或运算符
+			],
+			"settings": {
+				"foreground": "#60b7b7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"support.constant.property-value" //CSS属性值样式
+			],
+			"settings": {
+				"foreground": "#6AAA70",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.other.attribute-name.pseudo-class", //伪元素选择器
+				"entity.other.attribute-name.pseudo-element", //伪类选择器
+				"meta.assertion", //正则表达式预查语句关键字颜色
+				"meta.group.assertion.regexp punctuation.definition.group.regexp", //正则表达式断言括号颜色
+				"meta.group.assertion.regexp keyword.operator.or.regexp", //正则表达式断言或运算符
+				"meta.group.assertion.regexp", //正则表达式断言结构颜色
+				"meta.template.expression", //插值表达式
+				"expression.embedded.vue" //Vue插值表达式
+			],
+			"settings": {
+				"foreground": "#cf7777",
+				"fontStyle": ""
+			}
+		}
 	]
 }
