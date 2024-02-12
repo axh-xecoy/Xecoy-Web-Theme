@@ -1,4 +1,4 @@
-# Xecoy Theme
+![image](https://github.com/AXH-xy/Xecoy-Web-Theme/assets/93380643/82b31ea9-4132-4d69-84b5-f99e3f16edb9)# Xecoy Theme
 
 ## Introduction
 
@@ -35,7 +35,8 @@
 
 * [Click here to visit the GitHub repository for this open-source project](https://github.com/AXH-xy/Xecoy-Web-Theme)
 
-![icon](./icon.png "Xecoy Theme")
+![icon](https://github.com/AXH-xy/Xecoy-Web-Theme/assets/93380643/e75bac33-4286-45dd-8739-2646b9f848a2 "Xecoy Theme")
+
 
 # 中文介绍
 
