@@ -1,0 +1,37 @@
+{
+    "scopeName":"source.injection.php",
+    "injectionSelector": "L:text.html.php - string - comment",
+    "patterns":[
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init":{
+            "patterns":[
+                {
+                    "begin":"(<\\?)(php)",
+                    "beginCaptures":{
+                        "1":{
+                            "name":"punctuation.definition.tag.begin.html"
+                        },
+                        "2":{
+                            "name":"entity.name.tag.html"
+                        }
+                    },
+                    "end":"\\?>",
+                    "endCaptures":{
+                        "0":{
+                            "name":"punctuation.definition.tag.end.html"
+                        }
+                    },
+                    "patterns":[
+                        {
+                            "include":"source.php"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

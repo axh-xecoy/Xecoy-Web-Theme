@@ -1,11 +1,11 @@
 {
   "name": "xecoy-theme",
   "displayName": "Xecoy Theme",
-  "description": "It's nice dark theme, Mainly used for the web development.\n这是一款好看的深色主题，主要对Web开发提供高亮美化",
+  "description": "An intricately designed theme catering to web development, providing enhanced highlighting for a polished coding experience",
   "author": {
     "name": "AXH-xecoy"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -15,9 +15,49 @@
   "contributes": {
     "themes": [
       {
-        "label": "Xecoy Web Dark",
+        "label": "Xecoy Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Xecoy Web Dark-color-theme.json"
+        "path": "./themes/dark-color-theme.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "configuration",
+        "extensions": [
+          ".cfg"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "configuration",
+        "scopeName": "source.cfg",
+        "path": "./syntaxes/configuration.tmGrammar.json"
+      },
+      {
+        "path": "./syntaxes/php.tmGrammar.json",
+        "scopeName": "source.injection.php",
+        "injectTo": ["text.html.php"]
+      },
+      {
+        "path": "./syntaxes/csharp.tmGrammar.json",
+        "scopeName": "source.injection.cs",
+        "injectTo": ["source.cs"]
+      },
+      {
+        "path": "./syntaxes/rust.tmGrammar.json",
+        "scopeName": "source.injection.rust",
+        "injectTo": ["source.rust"]
+      },
+      {
+        "path": "./syntaxes/rust.no-enum.tmGrammar.json",
+        "scopeName": "source.injection.no-enum.rust",
+        "injectTo": ["source.rust"]
+      },
+      {
+        "path": "./syntaxes/python.tmGrammar.json",
+        "scopeName": "source.injection.python",
+        "injectTo": ["source.python"]
       }
     ]
   },
@@ -25,5 +65,5 @@
     "url": "https://github.com/AXH-xy/Xecoy-Web-Theme"
   },
   "icon": "icon.png",
-  "publisher": "Xecoy Studio"
+  "publisher": "xecoy-studio"
 }

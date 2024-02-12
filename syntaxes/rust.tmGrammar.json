@@ -1,0 +1,202 @@
+{
+    "scopeName": "source.injection.rust",
+    "injectionSelector": "L:source.rust - string - comment",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init": {
+            "patterns": [
+                {
+                    "match": "(?<=(?:let|mut)\\s+)[A-Z][0-9a-zA-Z_]*(?=\\s*(?::\\s*[0-9a-zA-Z_]+|;|=|\\s+in))",
+                    "name": "meta.variable.const.defined"
+                },
+                {
+                    "match": "(?<=(?:let|mut)\\s+)[0-9a-zA-Z_]+(?=\\s*(?::\\s*[0-9a-zA-Z_]+|;|=|\\s+in))",
+                    "name": "meta.variable.defined"
+                },
+                {
+                    "match": "(?<=\\.\\s*)([A-Z][0-9a-zA-Z_]+)\\s*(?![0-9a-zA-Z_\\{\\(\\.])",
+                    "captures": {
+                        "1": {
+                            "name": "meta.object.const.property"
+                        }
+                    }
+                },
+                {
+                    "match": "(?<=\\.\\s*)([0-9a-zA-Z_]+)\\s*(?![0-9a-zA-Z_\\{\\(\\.])",
+                    "captures": {
+                        "1": {
+                            "name": "meta.object.property"
+                        }
+                    }
+                },
+                {
+                    "begin": "(struct.*[0-9a-zA-Z_]+)\\s*(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "source.rust"
+                                }
+                            ]
+                        },
+                        "2": {
+                            "name": "punctuation.brackets.curly.rust"
+                        }
+                    },
+                    "end": "\\}",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.brackets.curly.rust"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "#defined"
+                        },
+                        {
+                            "include": "source.rust"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(fn.*?)([0-9a-zA-Z_]+)\\s*(\\()",
+                    "beginCaptures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "source.rust"
+                                }
+                            ]
+                        },
+                        "2": {
+                            "name": "meta.function.definition.rust entity.name.function.rust"
+                        },
+                        "3": {
+                            "name": "punctuation.brackets.round.rust"
+                        }
+                    },
+                    "end": "\\)",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.brackets.round.rust"
+                        }
+                    },
+                    "patterns": [
+                        {
+                            "include": "#variable-defined"
+                        },
+                        {
+                            "include": "source.rust"
+                        }
+                    ]
+                },
+                {
+                    "begin": "(enum.*?[0-9a-zA-Z_]+)\\s*(\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "patterns": [
+                                {
+                                    "include": "source.rust"
+                                }
+                            ]
+                        },
+                        "2": {
+                            "name": "punctuation.brackets.curly.rust"
+                        }
+                    },
+                    "end": "\\}",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.brackets.curly.rust"
+                        }
+                    },
+                    "contentName":"meta.enum.block",
+                    "patterns": [
+                        {
+                            "begin": "([0-9a-zA-Z_]+)\\s*(\\{)",
+                            "beginCaptures": {
+                                "1": {
+                                    "name": "meta.enum.object"
+                                },
+                                "2": {
+                                    "name": "punctuation.brackets.curly.rust"
+                                }
+                            },
+                            "end": "\\}",
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.brackets.curly.rust"
+                                }
+                            },
+                            "patterns": [
+                                {
+                                    "include": "#variable-defined"
+                                },
+                                {
+                                    "include": "source.rust"
+                                }
+                            ]
+                        },
+                        {
+                            "begin": "([0-9a-zA-Z_]+)\\s*(\\()",
+                            "beginCaptures": {
+                                "1": {
+                                    "name": "meta.enum.tuple"
+                                },
+                                "2": {
+                                    "name": "punctuation.brackets.round.rust"
+                                }
+                            },
+                            "end": "\\)",
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.brackets.round.rust"
+                                }
+                            },
+                            "patterns": [
+                                {
+                                    "include": "source.rust"
+                                }
+                            ]
+                        },
+                        {
+                            "match": "[0-9a-zA-Z_]+(?!\\s*[\\(\\{])",
+                            "name": "meta.enum.variable"
+                        },
+                        {
+                            "include": "source.rust"
+                        }
+                    ]
+                },
+                {
+                    "match": "(?<!use\\s.*?)::\\s*([0-9a-zA-Z_]+)(?!\\s*[0-9a-zA-Z_:\\(\\{])",
+                    "captures":{
+                        "1": {
+                            "name": "meta.const"
+                        }
+                    }
+                }
+            ]
+        },
+        "defined": {
+            "patterns": [
+                {
+                    "match": "[A-Z][0-9a-zA-Z_]*(?=\\s*:\\s*[0-9a-zA-Z_]+)",
+                    "name": "meta.variable.const.defined"
+                },
+                {
+                    "match": "[0-9a-zA-Z_]+(?=\\s*:\\s*[0-9a-zA-Z_]+)",
+                    "name": "meta.variable.defined"
+                }
+            ]
+        },
+        "variable-defined": {
+            "match": "[0-9a-zA-Z_]+(?=\\s*:\\s*[0-9a-zA-Z_]+)",
+            "name": "meta.variable.defined"
+        }
+    }
+}

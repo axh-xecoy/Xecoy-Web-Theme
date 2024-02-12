@@ -1,0 +1,35 @@
+{
+    "scopeName": "source.injection.cs",
+    "injectionSelector": "L:source.cs - string - comment",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository":{
+        "init":{
+            "patterns":[
+                {
+                    "match":"(?<=new\\s+)[0-9a-zA-Z_]+",
+                    "name":"mata.new-class.name"
+                },
+                {
+                    "match":".*(?<=\\.)\\s*([0-9a-zA-Z_]+)\\s*(?=\\()",
+                    "captures":{
+                        "1":{
+                            "name":"meta.function-call.name.cs"
+                        }
+                    }
+                },
+                {
+                    "match":"^\\s*([0-9a-zA-Z_]+)\\s*(?=\\()",
+                    "captures":{
+                        "1":{
+                            "name":"meta.function-call.name.cs"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

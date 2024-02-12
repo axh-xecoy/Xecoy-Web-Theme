@@ -1,0 +1,19 @@
+{
+    "scopeName": "source.injection.python",
+    "injectionSelector": "L:source.python - string - comment",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init": {
+            "match": "(?<=\\.\\s*)([0-9a-zA-Z_]+)\\s*(?![0-9a-zA-Z_\\{\\(\\.])",
+            "captures": {
+                "1": {
+                    "name": "meta.object.property"
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-	"name": "Xecoy Web Dark Theme",
+	"name": "Xecoy Dark",
 	"colors": {
 		"textLink.foreground":"#c78eff",
 		"textLink.activeForeground":"#f78dff",
@@ -7,21 +7,21 @@
 		"focusBorder": "#FFFFFF00",
 		"toolbar.hoverBackground":"#222222",
 		"toolbar.hoverOutline":"#FFFFFF",
-		"button.background":"#b66effA0",
-		"button.hoverBackground": "#b66effC0",
+		"button.background":"#8b58bd",
+		"button.hoverBackground": "#a066db",
 		"checkbox.background":"#2b2d30",
 		"checkbox.border":"#FFFFFF20",
 		"button.separator":"#FFFFFF10",
-		"list.activeSelectionBackground":"#2c6bb3",
-		"list.dropBackground":"#3a7fce30",
+		"list.activeSelectionBackground":"#FFFFFF20",
+		"list.dropBackground":"#FFFFFF10",
 		"activityBar.background":"#2b2d30",
 		"activityBar.dropBorder":"#FFFFFF00",
 		"activityBar.border":"#00000030",
 		"activityBarBadge.background":"#b66eff",
 		"activityBar.activeBorder":"#b66eff",
 		"sideBar.background":"#2b2d30",
-		"sideBar.border":"#FFFFFF00",
-		"sideBar.dropBackground":"#3a7fce30",
+		"sideBar.border":"#00000030",
+		"sideBar.dropBackground":"#FFFFFF10",
 		"sideBarSectionHeader.background":"#FFFFFF00",
 		"minimap.findMatchHighlight":"#CE6f30",
 		"minimap.selectionHighlight":"#FFFFFF50",
@@ -47,7 +47,7 @@
 		"tab.activeBorder":"#FFFFFF00",
 		"tab.unfocusedActiveBorder":"#FFFFFF00",
 		"tab.activeBorderTop":"#c78eff",
-		"tab.unfocusedActiveBorderTop":"#2c6bb3",
+		"tab.unfocusedActiveBorderTop":"#2a66aa",
 		"tab.inactiveBackground":"#FFFFFF00",
 		"tab.unfocusedInactiveBackground":"#FFFFFF00",
 		"tab.hoverBorder":"#FFFFFF00",
@@ -61,7 +61,7 @@
 		"editorLineNumber.dimmedForeground":"#FFFFFF00",
 		"editorCursor.background":"#AAAAAA30",
 		"editorCursor.foreground":"#AAAAAA",
-		"editor.selectionBackground":"#2c6bb350",
+		"editor.selectionBackground":"#2a66aa50",
 		"editor.selectionForeground":"#FFFFFF00",
 		"editor.selectionHighlightBackground":"#FFFFFF00",
 		"editor.selectionHighlightBorder":"#FFFFFF50",
@@ -71,7 +71,7 @@
 		"editor.wordHighlightStrongBorder":"#FFFFFF00",
 		"editor.wordHighlightTextBackground":"#FFFFFF00",
 		"editor.wordHighlightTextBorder":"#FFFFFF00",
-		"editor.findMatchBackground":"#2c6bb350",
+		"editor.findMatchBackground":"#2a66aa50",
 		"editor.findMatchHighlightBackground":"#CE6f3050",
 		"editor.findRangeHighlightBackground":"#FFFFFF00",
 		"editor.findMatchBorder":"#FFFFFF00",
@@ -120,7 +120,7 @@
 		"editorOverviewRuler.errorForeground":"#FF0000A0",
 		"editorOverviewRuler.warningForeground":"#FFFF00A0",
 		"editorOverviewRuler.infoForeground":"#00FFFFA0",
-		"editorOverviewRuler.addedForeground":"#FF0FFF",
+		"editorOverviewRuler.addedForeground":"#6AAA70A0",
 		"editorError.foreground":"#FF0000",
 		"editorError.border":"#FFFFFF00",
 		"editorError.background":"#FFFFFF00",
@@ -204,12 +204,13 @@
 		"menubar.selectionBorder": "#FFFFFF30",
 		"menu.background":"#2b2d30",
 		"menu.border":"#FFFFFF10",
-		"menu.selectionBackground":"#2c6bb3",
+		"menu.selectionBackground":"#2a66aa",
 		"menu.separatorBackground":"#FFFFFF10",
-		"commandCenter.background":"#FFFFFF00",
-		"commandCenter.border":"#FFFFFF00",
+		"commandCenter.background":"#FFFFFF00", //菜单栏中间的搜索框
+		"commandCenter.border":"#FFFFFF10",
 		"commandCenter.activeBackground": "#FFFFFF00",
-		"commandCenter.activeBorder":"#FFFFFF00",
+		"commandCenter.activeBorder":"#FFFFFF20",
+		"commandCenter.inactiveBorder": "#FFFFFF10",
 		"notificationCenter.border":"#FFFFFF10",
 		"notificationCenterHeader.background":"#2b2d30",
 		"notificationToast.border":"#FFFFFF10",
@@ -305,7 +306,46 @@
 		"breadcrumb.activeSelectionForeground":"#DDDDDD",
 		"breadcrumbPicker.background":"#2b2d30",
 		"editor.snippetTabstopHighlightBackground":"#FFFFFF10",
-		"editor.snippetTabstopHighlightBorder":"#FFFFFF50"
+		"editor.snippetTabstopHighlightBorder":"#FFFFFF50",
+		"symbolIcon.arrayForeground":"#C985DB",
+		"symbolIcon.booleanForeground":"#C985DB",
+		"symbolIcon.classForeground":"#C985DB",
+		"symbolIcon.colorForeground":"#C985DB",
+		"symbolIcon.constantForeground":"#C985DB",
+		"symbolIcon.constructorForeground":"#C985DB",
+		"symbolIcon.enumeratorForeground":"#C985DB",
+		"symbolIcon.enumeratorMemberForeground":"#C985DB",
+		"symbolIcon.eventForeground":"#C985DB",
+		"symbolIcon.fieldForeground":"#C985DB",
+		"symbolIcon.fileForeground":"#C985DB",
+		"symbolIcon.folderForeground":"#C985DB",
+		"symbolIcon.functionForeground":"#C985DB",
+		"symbolIcon.interfaceForeground":"#C985DB",
+		"symbolIcon.keyForeground":"#C985DB",
+		"symbolIcon.keywordForeground":"#C985DB",
+		"symbolIcon.methodForeground":"#C985DB",
+		"symbolIcon.moduleForeground":"#C985DB",
+		"symbolIcon.namespaceForeground":"#C985DB",
+		"symbolIcon.nullForeground":"#C985DB",
+		"symbolIcon.numberForeground":"#C985DB",
+		"symbolIcon.objectForeground":"#C985DB",
+		"symbolIcon.operatorForeground":"#C985DB",
+		"symbolIcon.packageForeground":"#C985DB",
+		"symbolIcon.propertyForeground":"#C985DB",
+		"symbolIcon.referenceForeground":"#C985DB",
+		"symbolIcon.snippetForeground":"#C985DB",
+		"symbolIcon.stringForeground":"#C985DB",
+		"symbolIcon.structForeground":"#C985DB",
+		"symbolIcon.textForeground":"#C985DB",
+		"symbolIcon.typeParameterForeground":"#C985DB",
+		"symbolIcon.unitForeground":"#C985DB",
+		"symbolIcon.variableForeground":"#C985DB",
+		"editorGutter.deletedBackground": "#DA5050",
+		"editorGutter.addedBackground": "#6AAA70",
+		"editorGutter.modifiedBackground": "#55A0D0",
+		"minimapGutter.deletedBackground": "#DA5050",
+		"minimapGutter.addedBackground": "#6AAA70",
+		"minimapGutter.modifiedBackground": "#55A0D0"
 	},
 	"tokenColors": [
 		{
@@ -333,7 +373,7 @@
 			}
 		},
 		{
-			"name": "非法字符",
+			"name": "无效内容",
 			"scope":"invalid",
 			"settings": {
 				"foreground": "#DA5050",
@@ -360,7 +400,7 @@
 			"scope":"storage",
 			"settings": {
 				"foreground": "#cf9977",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -372,14 +412,14 @@
 			}
 		},
 		{
-			"name": "框架",
+			"name": "特殊",
 			"scope": "support",
 			"settings": {
 				"foreground": "#cf9977",
 				"fontStyle": ""
 			}
 		},
-		//联合调色
+		//Web支持与基本色
 		{
 			"scope":[
 				"keyword.operator", //操作符样式
@@ -393,7 +433,6 @@
 		},
 		{
 			"scope":[
-				"meta.function-call entity.name.function", //以调用形式的函数名样式
 				"source support.function", //css方法
 				"entity.other.keyframe-offset", //CSS form to样式
 				"keyword.operator.logical" //CSS and样式
@@ -422,7 +461,11 @@
 				"constant.other.character-class.regexp", //正则表达式转义字符样式
 				"keyword.control.anchor.regexp", //正则表达式关键转义字符颜色
 				"constant.other.color", //CSS颜色字符样式
-				"support.constant.color" //CSS颜色字符样式
+				"support.constant.color", //CSS颜色字符样式
+				"meta.template.expression", //插值表达式
+				"expression.embedded.vue", //Vue插值表达式
+				"constant.character.entity", //html字符实体
+				"constant.character.entity punctuation.definition.entity" //字符实体符号颜色
 			],
 			"settings": {
 				"foreground": "#D7BA7D",
@@ -448,10 +491,20 @@
 		{
 			"scope":[
 				"variable.other.constant.property", //调用对象常量属性名称样式
-				"variable.other.enummember" //枚举类对象名称样式
+				"variable.other.enummember", //枚举类对象名称样式
+				"support.variable.property" //特殊属性如length
 			],
 			"settings": {
 				"foreground": "#55A0D0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"meta.function-call entity.name.function" //以调用形式的函数名样式
+			],
+			"settings": {
+				"foreground": "#C985DB",
 				"fontStyle": "italic"
 			}
 		},
@@ -463,8 +516,7 @@
 				"keyword.operator.expression", //of,instanceof,in等关键字
 				"entity.other.attribute-name", //html元素属性名称样式
 				"keyword.operator.quantifier.regexp", //正则表达式控制出现频率{0,?}
-				"string.regexp punctuation.definition.string", //正则表达式斜线颜色
-				"keyword.other" //正则表达式匹配类型颜色
+				"entity.other.attribute-name.css" //css属性选择器属性名称
 			],
 			"settings": {
 				"foreground": "#cf9977",
@@ -473,10 +525,6 @@
 		},
 		{
 			"scope":[
-				"constant.language", //json boolean & null 颜色
-				"constant.language.boolean.true", //true值 颜色
-				"constant.language.boolean.false", //false值 颜色
-				"constant.language.null", //null常量样式
 				"variable.argument.css", //css变量名称样式
 				"variable.css" //css变量名称样式
 			],
@@ -509,7 +557,9 @@
 		},
 		{
 			"scope":[
-				"support.constant.property-value" //CSS属性值样式
+				"entity.name.type.instance.jsdoc", //js文档注释
+				"support.constant.property-value", //CSS属性值样式
+				"support.constant.font-name.css" //CSS字体属性
 			],
 			"settings": {
 				"foreground": "#6AAA70",
@@ -518,18 +568,386 @@
 		},
 		{
 			"scope":[
+				"constant.language", //json boolean & null 颜色
+				"constant.language.null", //null常量样式
+				"constant.language.boolean.true", //true值 颜色
+				"constant.language.boolean.false", //false值 颜色
 				"entity.other.attribute-name.pseudo-class", //伪元素选择器
 				"entity.other.attribute-name.pseudo-element", //伪类选择器
 				"meta.assertion", //正则表达式预查语句关键字颜色
 				"meta.group.assertion.regexp punctuation.definition.group.regexp", //正则表达式断言括号颜色
 				"meta.group.assertion.regexp keyword.operator.or.regexp", //正则表达式断言或运算符
 				"meta.group.assertion.regexp", //正则表达式断言结构颜色
-				"meta.template.expression", //插值表达式
-				"expression.embedded.vue" //Vue插值表达式
+				"string.regexp punctuation.definition.string", //正则表达式斜线颜色
+				"string.regexp keyword.other" //正则表达式匹配类型颜色
 			],
 			"settings": {
 				"foreground": "#cf7777",
 				"fontStyle": ""
+			}
+		},
+		//Markdown支持 .md
+		{
+			"scope":[
+				"text.html.markdown", /*默认前景色*/
+				"text.html.markdown meta", 
+				"text.html.markdown markup.heading", //标记符后空格
+				"markup.quote.markdown", //区块缩进
+				"markup.list.unnumbered.markdown", /*列表缩进*/
+				"markup.list.numbered.markdown",
+				"punctuation.definition.bracket.curly.begin.jsdoc", /*js函数签名花括号*/
+				"punctuation.definition.bracket.curly.end.jsdoc"
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown punctuation.definition.markdown", //标记符
+				"text.html.markdown fenced_code.block.language.markdown", //标记语言
+				"text.html.markdown punctuation.definition.heading.markdown", //标记符:标题#
+				"text.html.markdown punctuation.definition.list.begin.markdown", //标记符:列表
+				"text.html.markdown punctuation.definition.quote.begin.markdown", //标记符:区块
+				"text.html.markdown punctuation.definition.italic.markdown", //标记符:斜体字
+				"text.html.markdown punctuation.definition.bold.markdown", //标记符:粗体字
+				"text.html.markdown punctuation.definition.strikethrough.markdown", //标记符:删除字
+				"text.html.markdown markup.heading.setext", //标题元素标记=-
+				"text.html.markdown meta.separator", //分割线
+				"text.html.markdown punctuation.definition.math.begin.markdown", //数学作用域
+				"text.html.markdown punctuation.definition.math.end.markdown", //数学作用域
+				"text.html.markdown punctuation.definition.table.markdown", //表格 | 结构
+				"text.html.markdown punctuation.separator.table.markdown" //表格标志
+			],
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown string.other.link.description.title.markdown", //传参
+				"text.html.markdown string.other.link.title.markdown", //变量超链接文本
+				"text.html.markdown markup.table.markdown", //表格文本
+				"text.html.markdown string.other.link.description.markdown", //图片alt文本
+				"text.html.markdown meta.embedded.math.markdown"//数学文本
+			],
+			"settings": {
+				"foreground": "#D7BA7D", //包围字符配色
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.bold.markdown" //粗体字
+			],
+			"settings": {
+				"foreground": "#D7BA7D",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.italic.markdown" //斜体字
+			],
+			"settings": {
+				"foreground": "#D7BA7D",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.strikethrough.markdown" //删除字
+			],
+			"settings": {
+				"foreground": "#D7BA7D",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.bold.markdown markup.italic.markdown" //斜粗体字
+			],
+			"settings": {
+				"foreground": "#D7BA7D",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown meta.paragraph", //段落文本
+				"text.html.markdown entity.name.section", //标记符后文本
+				"text.html.markdown markup.raw.block", //代码块
+				"text.html.markdown markup"  //默认文本色
+			],
+			"settings": {
+				"foreground": "#6AAA70", //常规字符配色
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown constant.other.reference.link.markdown", //引用链接变量
+				"text.html.markdown punctuation.line.separator.math.tex" //数学作用域换行
+			],
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.underline.link.markdown", //超链接
+				"text.html.markdown markup.underline.link.image.markdown" //超链接图片
+			],
+			"settings": {
+				"foreground": "#60b7b7",
+				"fontStyle": ""
+			}
+		},
+		//Log支持，.log
+		{
+			"scope":[
+				"text.log",
+				"text.log log.constant",
+				"text.log constant.language"
+			],
+			"settings": {
+				"foreground": "#A0A0A0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.log log.string"
+			],
+			"settings": {
+				"foreground": "#4d9955",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"text.log log.info",
+			"settings": {
+				"foreground": "#60b7b7F0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"text.log log.warning",
+			"settings": {
+				"foreground": "#D7BA7DF0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"text.log log.error",
+			"settings": {
+				"foreground": "#DA5050F0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"text.log log.exception",
+			"settings": {
+				"foreground": "#cf9977E0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"text.log log.exceptiontype",
+			"settings": {
+				"foreground": "#cf7777F0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"text.log log.date",
+			"settings": {
+				"foreground": "#55A0D0d0",
+				"fontStyle": ""
+			}
+		},
+		//yaml支持，.yml
+		{
+			"scope":"entity.name.tag.yaml",
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		//tonl支持，.tonl
+		{
+			"scope":[
+				"support.type.property-name.table.toml",
+				"support.type.property-name.array.toml"
+			],
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": ""
+			}
+		},
+		//java-properties支持，.properties
+		{
+			"scope":"support.constant.java-properties",
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		//cfg支持,minecraft-cfg
+		{
+			"scope":"source.cfg meta.object.name",
+			"settings": {
+				"foreground": "#C985DB",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":["source.cfg meta.type","source.cfg meta.property.name"],
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"source.cfg meta.attribute.name",
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.cfg meta.attribute.value",
+				"source.cfg meta.property.value"
+			],
+			"settings": {
+				"foreground": "#6AAA70",
+				"fontStyle": ""
+			}
+		},
+		//编程语言高亮支持
+		{
+			"scope":[
+				"text", //默认文本配色
+				"source", //默认编程语言配色
+				"punctuation.bracket.angle", //Java泛型括号颜色
+				"punctuation.separator.delimiter", //Java泛型逗号颜色
+				"storage.type.java", //Java默认类名颜色
+				"storage.type.generic.java", //Java包装类颜色
+				"storage.modifier.import.java", //Java导入模块颜色
+				"variable.other.php", //php变量颜色
+				"punctuation.section.array.begin.php", //中括号颜色
+				"punctuation.section.array.end.php", //中括号颜色
+				"punctuation.definition.variable.php", //php符号颜色
+				"meta.enum.object" //Rust对象枚举
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.create-struct.name" //Rust创建结构体
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"support.function.builtin", //函数名称颜色Python
+				"entity.name.function.php", //函数名颜色php
+				"entity.name.function.cs", //函数名颜色c#
+				"entity.name.function.go", //函数名颜色Go
+				"meta.enum.tuple", //Rust列表枚举
+				"entity.name.function.lua" //Lua函数声明颜色
+			],
+			"settings": {
+				"foreground": "#C985DB",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.function.call entity.name.function", //调用函数颜色 Rust
+				"entity.name.function.call", //调用函数颜色C++
+				"meta.method-call entity.name.function", //调用函数颜色Java
+				"meta.function-call support.function.builtin", //调用函数颜色Python
+				"meta.function-call.generic", //调用方法Python
+				"meta.function-call.php entity.name.function.php", //函数调用php
+				"mata.new-class.name", //调用new Class时，Class颜色
+				"meta.function-call.name.cs", //C#调用方法/函数配色
+				"entity.name.function.support", //调用方法颜色Go
+				"support.function.any-method.lua", //调用函数Lua
+				"support.function.lua" //调用内置函数Lua
+			],
+			"settings": {
+				"foreground": "#C985DB",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"entity.name.type.numeric", //数字类型
+				"entity.name.type.primitive" //布尔&字符串切片类型
+			],
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.name.function.macro", //Rust宏声明&调用
+				"support.function.construct", //php内置函数
+				"entity.name.type.result.rust", //RustOk()
+				"entity.name.type.option.rust" //RustSome()
+			],
+			"settings": {
+				"foreground": "#cf9977",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"punctuation.definition.interpolation", //插值表达式括号
+				"meta.interpolation" // 插值参数颜色
+			],
+			"settings": {
+				"foreground": "#D7BA7D", 
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.name.variable.field.cs", //C#变量声明颜色
+				"entity.name.variable.parameter.cs", 
+				"entity.name.variable.local.cs",
+				"variable.other.object.property.cs", //C#调用对象成员属性颜色
+				"variable.other.assignment.go", //go语言变量名声明与赋值颜色
+				"meta.variable.defined", //变量声明颜色
+				"meta.object.property", //属性变量颜色
+				"meta.enum.variable" //Rust枚举变量
+			],
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.variable.const.defined", //常量声明颜色
+				"meta.object.const.property", //属性常量颜色
+				"meta.const" //枚举常量颜色
+			],
+			"settings": {
+				"foreground": "#55A0D0",
+				"fontStyle": "italic"
 			}
 		}
 	]

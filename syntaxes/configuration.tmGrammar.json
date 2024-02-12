@@ -1,0 +1,144 @@
+{
+    "scopeName": "source.cfg",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init": {
+            "patterns": [
+                {
+                    "match": "#.*",
+                    "name": "comment.cfg"
+                },
+                {
+                    "begin":"(>)([^<>]+)",
+                    "beginCaptures":{
+                        "1":{
+                            "name":"meta.property.list.begin"
+                        },
+                        "2":{
+                            "name":"meta.property.name"
+                        }
+                    },
+                    "end":"(<)",
+                    "endCaptures":{
+                        "0":{
+                            "name":"meta.property.list.begin"
+                        }
+                    },
+                    "patterns":[
+                        {
+                            "match":"[^<>]+",
+                            "name":"meta.property.value"
+                        }
+                    ]
+                },
+                {
+                    "begin": "([^\\{\\}]*)\\s*(\\{)",
+                    "beginCaptures":{
+                        "1":{
+                            "name":"meta.object.name"
+                        },
+                        "2":{
+                            "name":"meta.property.block.begin"
+                        }
+                    },
+                    "end":"\\}",
+                    "endCaptures":{
+                        "0":{
+                            "name":"meta.property.block.end"
+                        }
+                    },
+                    "patterns":[
+                        { "include": "#comment" },
+                        { "include": "#property" }
+                    ]
+                },
+                {
+                    "match": "([^=<>]+)\\s*(?:(=)\\s*(\\S+))?",
+                    "captures": {
+                        "1":{
+                            "name":"meta.property.name"
+                        },
+                        "2":{
+                            "name":"keyword.operator.assignment"
+                        },
+                        "3":{
+                            "name":"meta.property.value"
+                        }
+                    }
+                }
+            ]
+        },
+        "comment": {
+            "match": "\\s*#.*",
+            "name": "comment.property.cfg"
+        },
+        "property": {
+            "patterns":[
+                {
+                    "begin": "^\\s*(?:([a-zA-Z]+)\\s*(:))?\\s*((?:\".*\")|(?:[^\\s=]+))\\s*(<)",
+                    "beginCaptures":{
+                        "1":{
+                            "name":"meta.type"
+                        },
+                        "2":{
+                            "name":"keyword.operator.type"
+                        },
+                        "3":{
+                            "name":"meta.attribute.name"
+                        },
+                        "4":{
+                            "name":"keyword.operator.list.open"
+                        }
+                    },
+                    "end": ">",
+                    "endCaptures":{
+                        "0":{
+                            "name":"keyword.operator.list.end"
+                        }
+                    },
+                    "patterns":[
+                        {
+                            "match":"[^<>]+",
+                            "name":"meta.attribute.value"
+                        }
+                    ]
+                },
+                {
+                    "match": "^\\s*(?:([a-zA-Z]+)\\s*(:))?\\s*((?:\".*\")|(?:[^\\s=]+))\\s*(?:(=)\\s*([^=]+))?",
+                    "captures":{
+                        "1":{
+                            "name":"meta.type"
+                        },
+                        "2":{
+                            "name":"keyword.operator.type"
+                        },
+                        "3":{
+                            "name":"meta.attribute.name"
+                        },
+                        "4":{
+                            "name":"keyword.operator.assignment"
+                        },
+                        "5":{
+                            "name":"meta.attribute.value"
+                        }
+                    }
+                },
+                {
+                    "match": "^\\s*([A-Z])\\s*(:)",
+                    "captures":{
+                        "1":{
+                            "name":"meta.type"
+                        },
+                        "2":{
+                            "name":"keyword.operator.type"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
