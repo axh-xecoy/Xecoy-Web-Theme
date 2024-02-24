@@ -33,7 +33,7 @@
 
 ## Open Source
 
-* [Click here to visit the GitHub repository for this open-source project](https://github.com/AXH-xy/Xecoy-Web-Theme)
+* [Click here to visit the GitHub repository for this open-source project](https://github.com/Xecoy-Studio/Xecoy-Web-Theme)
 
 ![icon](https://private-user-images.githubusercontent.com/93380643/304161021-e75bac33-4286-45dd-8739-2646b9f848a2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDg3NTcwMzQsIm5iZiI6MTcwODc1NjczNCwicGF0aCI6Ii85MzM4MDY0My8zMDQxNjEwMjEtZTc1YmFjMzMtNDI4Ni00NWRkLTg3MzktMjY0NmI5Zjg0OGEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI0VDA2Mzg1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQyNmZjMTBhMmE5MDIxMTBhMTE1Yjg1OGI2ODdhYjM5YTc4YWJiMTdkZTk1MTg4MzQzZTMyNjEyYjk4MGE2OTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.pd1sMiZClmcFhBCpfQ7KqGb_LWHUOs9jvHAERH4sgvI "No Image")
 
@@ -49,4 +49,4 @@
 
 ## 本主题代码开源
 
-* [点击此处打开Github，定位到本开源项目](https://github.com/AXH-xy/Xecoy-Web-Theme)
+* [点击此处打开Github，定位到本开源项目](https://github.com/Xecoy-Studio/Xecoy-Web-Theme)
