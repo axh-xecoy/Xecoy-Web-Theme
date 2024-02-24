@@ -1,4 +1,5 @@
 # Set default behavior to automatically normalize line endings.
+* text=auto
 *.js linguist-language=JSON
 *.css linguist-language=JSON
 *.html linguist-language=JSON
