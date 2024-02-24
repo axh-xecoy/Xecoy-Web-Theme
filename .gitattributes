@@ -1,16 +1,3 @@
 # Set default behavior to automatically normalize line endings.
-# * text=auto
-*.js linguist-language=Json
-*.css linguist-language=Json
-*.html linguist-language=Json
-*.json linguist-language=Json
-*.rs linguist-language=Json
-*.php linguist-language=Json
-*.go linguist-language=Json
-*.cs linguist-language=Json
-*.cpp linguist-language=Json
-*.java linguist-language=Json
-*.lua linguist-language=Json
-*.md linguist-language=Json
-*.py linguist-language=Json
-*.ts linguist-language=Json
+* text=auto
+private/* linguist-vendored
