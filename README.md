@@ -33,9 +33,9 @@
 
 ## Open Source
 
-* [Click here to visit the GitHub repository for this open-source project](https://github.com/AXH-xy/Xecoy-Web-Theme)
+* [Click here to visit the GitHub repository for this open-source project](https://github.com/Xecoy-Studio/Xecoy-Web-Theme)
 
-![icon](https://github.com/AXH-xy/Xecoy-Web-Theme/assets/93380643/e75bac33-4286-45dd-8739-2646b9f848a2 "Xecoy Theme")
+![icon](https://github.com/Xecoy-Studio/Xecoy-Web-Theme/assets/93380643/e75bac33-4286-45dd-8739-2646b9f848a2 "Xecoy Theme")
 
 
 # 中文介绍
@@ -50,4 +50,4 @@
 
 ## 本主题代码开源
 
-* [点击此处打开Github，定位到本开源项目](https://github.com/AXH-xy/Xecoy-Web-Theme)
+* [点击此处打开Github，定位到本开源项目](https://github.com/Xecoy-Studio/Xecoy-Web-Theme)
