@@ -1,0 +1,42 @@
+{
+    "scopeName": "source.log",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init": {
+            "patterns":[
+                {
+                    "match":"(\")[^\"]*(\")",
+                    "captures":{
+                        "0":{
+                            "name":"string.double-quoted"
+                        },
+                        "1":{
+                            "name":"string.double-quoted.symbol"
+                        },
+                        "2":{
+                            "name":"string.double-quoted.symbol"
+                        }
+                    }
+                },
+                {
+                    "match":"(')[^']*(')",
+                    "captures":{
+                        "0":{
+                            "name":"string.quoted"
+                        },
+                        "1":{
+                            "name":"string.quoted.symbol"
+                        },
+                        "2":{
+                            "name":"string.quoted.symbol"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

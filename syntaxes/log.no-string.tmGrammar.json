@@ -1,0 +1,190 @@
+{
+    "scopeName": "source.injection.log",
+    "injectionSelector": "L:source.log - string",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init": {
+            "patterns":[
+                {
+                    "match":"(http|https):\\/\\/[0-9a-zA-Z\\-_]+(\\.[0-9a-zA-Z\\-_]+)+((\\/[0-9a-zA-Z\\-_\\.]+)+(\\?[^=&\\s]+=[^=&\\s]+(&[^=&\\s]+=[^=&\\s]+)*)?)?",
+                    "name":"text.url"
+                },
+                {
+                    "match":"(\\()([^\\(\\)]*)(\\))",
+                    "captures":{
+                        "1":{
+                            "name":"meta.block.node.symbol"
+                        },
+                        "2":{
+                            "name":"meta.block.node",
+                            "patterns":[
+                                { "include":"#support" },
+                                { "include":"source.log "}
+                            ]
+                        },
+                        "3":{
+                            "name":"meta.block.node.symbol"
+                        }
+                    }
+                },
+                {
+                    "match":"(\\[)([^\\[\\]]*)(\\])",
+                    "captures":{
+                        "1":{
+                            "name":"meta.block.array.symbol"
+                        },
+                        "2":{
+                            "name":"meta.block.array",
+                            "patterns":[
+                                { "include":"#support" },
+                                { "include":"source.log "}
+                            ]
+                        },
+                        "3":{
+                            "name":"meta.block.array.symbol"
+                        }
+                    }
+                },
+                {
+                    "match":"(<)([^<>]*)(>)",
+                    "captures":{
+                        "1":{
+                            "name":"meta.block.list.symbol"
+                        },
+                        "2":{
+                            "name":"meta.block.list",
+                            "patterns":[
+                                { "include":"#support" },
+                                { "include":"source.log "}
+                            ]
+                        },
+                        "3":{
+                            "name":"meta.block.list.symbol"
+                        }
+                    }
+                },
+                {
+                    "begin":"\\{",
+                    "beginCaptures":{
+                        "0":{
+                            "name":"meta.block.object.symbol"
+                        }
+                    },
+                    "end":"\\}",
+                    "endCaptures":{
+                        "0":{
+                            "name":"meta.block.object.symbol"
+                        }
+                    },
+                    "contentName":"meta.block.object",
+                    "patterns":[
+                        { "include":"#support" },
+                        { "include":"source.log "}
+                    ]
+                },
+                {
+                    "match": "(?<![0-9])(?:([0-9]{2}):([0-9]{2}))(?::([0-9]{2})(?:[\\.,]([0-9]{3}))?)?(?![0-9])",
+                    "captures":{
+                        "0":{
+                            "name":"text.time"
+                        },
+                        "1":{
+                            "name":"text.time.hour"
+                        },
+                        "2":{
+                            "name":"text.time.minute"
+                        },
+                        "3":{
+                            "name":"text.time.seconds"
+                        },
+                        "4":{
+                            "name":"text.time.millisecond"
+                        }
+                    }
+                },
+                {
+                    "match": "(?<![0-9])([0-9]{4})[\\\\\\/\\-\\.]([0-9]{2})[\\\\\\/\\-\\.]([0-9]{2})(?![0-9])",
+                    "captures":{
+                        "0":{
+                            "name":"text.date"
+                        },
+                        "1":{
+                            "name":"text.date.year"
+                        },
+                        "2":{
+                            "name":"text.date.month"
+                        },
+                        "3":{
+                            "name":"text.date.day"
+                        }
+                    }
+                },
+                {
+                    "match": "(?<![0-9])([0-9]{2})[\\\\\\/\\-\\.]([0-9]{2})[\\\\\\/\\-\\.]([0-9]{4})(?![0-9])",
+                    "captures":{
+                        "0":{
+                            "name":"text.date"
+                        },
+                        "1":{
+                            "name":"text.date.day"
+                        },
+                        "2":{
+                            "name":"text.date.month"
+                        },
+                        "3":{
+                            "name":"text.date.year"
+                        }
+                    }
+                },
+                {
+                    "match": "\\b[iI][nN][fF][oO]\\b",
+                    "name":"markup.info"
+                },
+                {
+                    "match": "\\b[eE][rR][rR](?:[oO][rR])?\\b",
+                    "name":"markup.error"
+                },
+                {
+                    "match": "\\b[fF][aA][tT][aA][lL]\\b",
+                    "name":"markup.error.fatal"
+                },
+                {
+                    "match": "\\b[wW][aA][rR][nN](?:[iI][nN][gG])?\\b",
+                    "name":"markup.warning"
+                },
+                {
+                    "match": "\\b[dD][eE][bB][uU][gG]\\b",
+                    "name":"markup.debug"
+                },
+                {
+                    "match": "(?<![0-9a-zA-Z])(?:[vV]|[sS][tT][aA][bB][lL][eE]|[rR][eE][lL][eE][aA][sS][eE]|[bB][eE][tT][aA]|[aA][hH][pP][lL][aA])[\\-\\.\\_]?[0-9]+(\\.[0-9]+)*(?![0-9a-zA-Z])",
+                    "name":"constant.number.version"
+                },
+                {
+                    "match": "(?<![0-9a-zA-Z])-?[0-9]+%(?![0-9a-zA-Z])",
+                    "name": "constant.number.percent"
+                },
+                {
+                    "match": "(?<![0-9a-zA-Z])-?[0-9]+(\\.[0-9]+)?\\s?([tT][bB][pP][sS]|[gG][bB][pP][sS]|[mM][bB][pP][sS]|[kK][bB][pP][sS]|[bB][iI][tT]|[tT][bB]|[gG][bB]|[mM][bB]|[kK][bB]|[tT]|[gG]|[mM]|[kK]|[bB])\\b",
+                    "name": "constant.number.unit"
+                },
+                {
+                    "match": "(?<![0-9a-zA-Z])-?[0-9]+(\\.[0-9]+)*(?![0-9a-zA-Z])",
+                    "name": "constant.number"
+                }
+            ]
+        },
+        "support":{
+            "patterns":[
+                {
+                    "match":"([0-9a-zA-Z_]+)(?:(?:\\.|::)([0-9a-zA-Z_]+))+",
+                    "name":"meta.import.path"
+                }
+            ]
+        }
+    }
+}

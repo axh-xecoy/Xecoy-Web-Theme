@@ -1,0 +1,46 @@
+{
+    "scopeName": "source.ini",
+    "patterns": [
+        {
+            "include": "#init"
+        }
+    ],
+    "repository": {
+        "init": {
+            "patterns":[
+                {
+                    "match": "[;#].*",
+                    "name": "comment.ini"
+                },
+                {
+                    "match": "(?<=\\[[^\\[]*)[^\\/\\\\\\[\\]]+",
+                    "name": "meta.object.name"
+                },
+                {
+                    "match": "(?:(.*?):)?([^:=]+)(?:=(.*))",
+                    "captures":{
+                        "1":{
+                            "name":"meta.type"
+                        },
+                        "2":{
+                            "name":"meta.attribute.name"
+                        },
+                        "3":{
+                            "name":"string.ini",
+                            "patterns":[
+                                {
+                                    "match":"(?<![\\d\\.])[0-9]+(?:\\.[0-9]+)?(?![\\d\\.])",
+                                    "name":"constant"
+                                },
+                                {
+                                    "match":"\\b(?:true|false|null)\\b",
+                                    "name":"constant.language"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

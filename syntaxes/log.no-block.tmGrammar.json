@@ -1,0 +1,9 @@
+{
+    "scopeName": "source.injection.no-block.log",
+    "injectionSelector": "L:source.log - string - meta.block",
+    "patterns": [
+        {
+            "include": "text.log"
+        }
+    ]
+}

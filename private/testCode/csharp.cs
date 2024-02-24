@@ -26,6 +26,7 @@ public class ConstTest
         Console.WriteLine("x = {0}, y = {1}", mC.x, mC.y);
         Console.WriteLine("c1 = {0}, c2 = {1}", 
                           SampleClass.c1, SampleClass.c2);
+Console.WriteLine($"Hello, {name}! Today is {date.DayOfWeek}, it's {date:HH:mm} now.");
     }
 
     int getid(int s){

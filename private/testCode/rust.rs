@@ -1,5 +1,8 @@
 use std::io::{stdin, stdout};
 
+const ABDE:i32=10;
+static NUM:u32=5;
+
 fn main() {
     let mut a = 10;
     let b = "Hello World";

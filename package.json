@@ -5,9 +5,10 @@
   "author": {
     "name": "AXH-xecoy"
   },
-  "version": "0.2.0",
+  "license":"MIT",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "*"
   },
   "categories": [
     "Themes"
@@ -18,13 +19,40 @@
         "label": "Xecoy Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-color-theme.json"
+      },
+      {
+        "label": "Xecoy Light",
+        "uiTheme": "vs",
+        "path": "./themes/light-color-theme.json"
       }
     ],
     "languages": [
       {
         "id": "configuration",
         "extensions": [
-          ".cfg"
+          ".cfg",
+          ".lang"
+        ]
+      },
+      {
+        "id": "log",
+        "extensions": [
+          ".log"
+        ]
+      },
+      {
+        "id": "ini",
+        "extensions": [
+          ".ini"
+        ]
+      },
+      {
+        "id": "glsl",
+        "extensions": [
+          ".glsl",
+          ".fsh",
+          ".vsh",
+          ".inc"
         ]
       }
     ],
@@ -33,6 +61,21 @@
         "language": "configuration",
         "scopeName": "source.cfg",
         "path": "./syntaxes/configuration.tmGrammar.json"
+      },
+      {
+        "language": "ini",
+        "scopeName": "source.ini",
+        "path": "./syntaxes/ini.tmGrammar.json"
+      },
+      {
+        "language": "log",
+        "scopeName": "source.log",
+        "path": "./syntaxes/log.tmGrammar.json"
+      },
+      {
+        "language": "glsl",
+        "scopeName": "source.glsl",
+        "path": "./syntaxes/glsl.tmGrammar.json"
       },
       {
         "path": "./syntaxes/php.tmGrammar.json",
@@ -58,6 +101,16 @@
         "path": "./syntaxes/python.tmGrammar.json",
         "scopeName": "source.injection.python",
         "injectTo": ["source.python"]
+      },
+      {
+        "path": "./syntaxes/log.no-string.tmGrammar.json",
+        "scopeName": "source.injection.log",
+        "injectTo": ["source.log"]
+      },
+      {
+        "path": "./syntaxes/log.no-block.tmGrammar.json",
+        "scopeName": "source.injection.no-block.log",
+        "injectTo": ["source.log"]
       }
     ]
   },

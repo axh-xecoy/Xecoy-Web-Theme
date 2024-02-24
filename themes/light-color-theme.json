@@ -1,0 +1,977 @@
+{
+	"name": "Xecoy Light",
+	"colors": {
+		"textLink.foreground":"#0057b7",
+		"textLink.activeForeground":"#239ec5",
+		"foreground":"#222222",
+		"focusBorder": "#00000000",
+		"toolbar.hoverBackground":"#DDDDDD",
+		"toolbar.hoverOutline":"#000000",
+		"button.background":"#285cb2CC",
+		"button.hoverBackground": "#285cb2",
+		"checkbox.background":"#f7f8fa",
+		"checkbox.border":"#00000036", //已更正
+		"button.separator":"#00000010",
+		"list.activeSelectionForeground": "#222222",
+		"list.activeSelectionBackground":"#00000020", //已更正
+		"list.dropBackground":"#00000010",
+		"activityBar.foreground": "#000000",
+		"activityBar.background":"#f7f8fa",
+		"activityBar.dropBorder":"#00000000",
+		"activityBar.border":"#00000010", //已更正
+		"activityBarBadge.background":"#1e6dc2",
+		"activityBar.activeBorder":"#1e6dc2",
+		"sideBar.background":"#f7f8fa",
+		"sideBar.border":"#00000010", //已更正
+		"sideBar.dropBackground":"#00000010",
+		"sideBarSectionHeader.background":"#00000000",
+		"minimap.findMatchHighlight":"#c96520",
+		"minimap.selectionHighlight":"#00000050",
+		"minimap.errorHighlight":"#FF0000",
+		"minimap.warningHighlight":"#eece00",
+		"minimap.infoHighlight":"#00cfcf",
+		"minimap.background":"#f7f8fa",
+		"minimap.foregroundOpacity":"#FFFFFFFF",
+		"minimap.selectionOccurrenceHighlight":"#c96520",
+		"minimapSlider.background":"#FFFFFF00",
+		"minimapSlider.hoverBackground":"#00000010",
+		"minimapSlider.activeBackground":"#00000010",
+		"editorGroup.border":"#00000010",
+		"editorGroup.dropBackground":"#00000010",
+		"editorGroupHeader.tabsBackground":"#FFFFFF",
+		"editorGroupHeader.tabsBorder":"#00000010",
+		"editorGroupHeader.border":"#00000010",
+		"editorGroup.emptyBackground":"#FFFFFF",
+		"editorGroup.dropIntoPromptBackground":"#00000000",
+		"tab.activeBackground":"#00000000",
+		"tab.unfocusedActiveBackground":"#00000000",
+		"tab.border":"#00000000",
+		"tab.activeBorder":"#00000000",
+		"tab.unfocusedActiveBorder":"#00000000",
+		"tab.activeBorderTop":"#285cb2",
+		"tab.unfocusedActiveBorderTop":"#8F8F8F",
+		"tab.inactiveBackground":"#00000000",
+		"tab.unfocusedInactiveBackground":"#00000000",
+		"tab.hoverBorder":"#00000000",
+		"tab.unfocusedHoverBorder":"#00000000",
+		"editorPane.background":"#FFFFFF",
+		"sideBySideEditor.verticalBorder":"#00000010",
+		"editor.background":"#FFFFFF",
+		"editor.foreground":"#333333",
+		"editorLineNumber.foreground":"#00000036", //已更正
+		"editorLineNumber.activeForeground":"#00000080",
+		"editorLineNumber.dimmedForeground":"#00000000",
+		"editorCursor.background":"#5F5F5F30",
+		"editorCursor.foreground":"#5F5F5F",
+		"editor.selectionBackground":"#268fff50",
+		"editor.selectionForeground":"#00000000",
+		"editor.selectionHighlightBackground":"#00000000",
+		"editor.selectionHighlightBorder":"#00000050",
+		"editor.wordHighlightBackground":"#00000010",
+		"editor.wordHighlightBorder":"#00000000",
+		"editor.wordHighlightStrongBackground":"#00000010",
+		"editor.wordHighlightStrongBorder":"#00000000",
+		"editor.wordHighlightTextBackground":"#00000000",
+		"editor.wordHighlightTextBorder":"#00000000",
+		"editor.findMatchBackground":"#268fff50",
+		"editor.findMatchHighlightBackground":"#c9652050",
+		"editor.findRangeHighlightBackground":"#00000000",
+		"editor.findMatchBorder":"#00000000",
+		"editor.findMatchHighlightBorder":"#00000000",
+		"editor.findRangeHighlightBorder":"#00000080",
+		"searchEditor.findMatchBackground":"#c9652050",
+		"searchEditor.findMatchBorder":"#00000000",
+		"searchEditor.textInputBorder":"#00000000",
+		"editor.hoverHighlightBackground":"#00000036", //已更正
+		"editor.lineHighlightBackground":"#00000010",
+		"editor.lineHighlightBorder":"#00000000",
+		"editorUnicodeHighlight.border":"#00000000",
+		"editorUnicodeHighlight.background":"#00000000",
+		"editorLink.activeForeground":"#239ec5",
+		"editorWhitespace.foreground":"#00000016",
+		"editorRuler.foreground":"#f7f8fa",
+		"editorCodeLens.foreground":"#00000030",
+		"editorLightBulb.foreground":"#eece00",
+		"editorLightBulbAutoFix.foreground":"#eece00",
+		"editorLightBulbAi.foreground":"#eece00",
+		"editorBracketMatch.background":"#00000036", //已更正
+		"editorBracketMatch.border":"#00000050",
+		"editorBracketHighlight.foreground1":"#c96520",
+		"editorBracketHighlight.foreground2":"#ac8700",
+		"editorBracketHighlight.foreground3":"#007d19",
+		"editorBracketHighlight.foreground4":"#077aab",
+		"editorBracketHighlight.foreground5":"#0033b3",
+		"editorBracketHighlight.foreground6":"#954595",
+		"editorBracketHighlight.unexpectedBracket.foreground":"#a11922",
+		"editorBracketPairGuide.background1":"#c9652030",
+		"editorBracketPairGuide.background2":"#ac870030",
+		"editorBracketPairGuide.background3":"#007d1930",
+		"editorBracketPairGuide.background4":"#077aab30",
+		"editorBracketPairGuide.background5":"#0033b330",
+		"editorBracketPairGuide.background6":"#95459530",
+		"editorBracketPairGuide.activeBackground1":"#c96520A0",
+		"editorBracketPairGuide.activeBackground2":"#ac8700A0",
+		"editorBracketPairGuide.activeBackground3":"#007d19A0",
+		"editorBracketPairGuide.activeBackground4":"#077aabA0",
+		"editorBracketPairGuide.activeBackground5":"#0033b3A0",
+		"editorBracketPairGuide.activeBackground6":"#954595A0",
+		"editor.foldBackground":"#00000000",
+		"editorOverviewRuler.background":"#00000000",
+		"editorOverviewRuler.border":"#00000000",
+		"editorOverviewRuler.wordHighlightTextForeground":"#c96520A0",
+		"editorOverviewRuler.errorForeground":"#FF0000A0",
+		"editorOverviewRuler.warningForeground":"#eece00A0",
+		"editorOverviewRuler.infoForeground":"#00cfcfA0",
+		"editorOverviewRuler.addedForeground":"#007d19A0",
+		"editorError.foreground":"#FF0000",
+		"editorError.border":"#00000000",
+		"editorError.background":"#00000000",
+		"editorWarning.foreground":"#eece00",
+		"editorWarning.border":"#00000000",
+		"editorWarning.background":"#00000000",
+		"editorInfo.foreground":"#00cfcf",
+		"editorInfo.border":"#00000000",
+		"editorInfo.background":"#00000000",
+		"editorHint.foreground":"#000000",
+		"editorHint.border":"#00000000",
+		"problemsErrorIcon.foreground":"#a11922",
+		"problemsWarningIcon.foreground":"#ac8700",
+		"problemsInfoIcon.foreground":"#077aab",
+		"editorUnnecessaryCode.border":"#00000000",
+		"editorUnnecessaryCode.opacity":"#FFFFFFA0",
+		"editorGutter.background":"#FFFFFF",
+		"editorGutter.foldingControlForeground":"#00000050",
+		"diffEditor.insertedTextBackground":"#eece0030",
+		"diffEditor.insertedTextBorder":"#00000000",
+		"diffEditor.removedTextBackground":"#eece0030",
+		"diffEditor.removedTextBorder":"#00000000",
+		"diffEditor.border":"#00000010",
+		"diffEditor.diagonalFill":"#00000010",
+		"diffEditor.insertedLineBackground":"#007d1920",
+		"diffEditor.removedLineBackground":"#a1192220",
+		"diffEditorGutter.insertedLineBackground":"#007d1920",
+		"diffEditorGutter.removedLineBackground":"#a1192220",
+		"editorWidget.background":"#f7f8fa",
+		"editorWidget.border":"#00000000",
+		"editorWidget.resizeBorder":"#00000000",
+		"editorSuggestWidget.background":"#f7f8fa",
+		"editorSuggestWidget.border":"#00000010",
+		"editorSuggestWidget.selectedBackground":"#00000016",
+		"editorHoverWidget.background":"#f7f8fa",
+		"editorHoverWidget.border":"#00000010",
+		"editorHoverWidget.highlightForeground":"#c96520",
+		"editorHoverWidget.statusBarBackground":"#f7f8fa",
+		"editorGhostText.border":"#00000000",
+		"editorGhostText.background":"#00000000",
+		"editorGhostText.foreground":"#00000016",
+		"editorStickyScrollHover.background":"#00000010",
+		"debugExceptionWidget.background":"#f7f8fa",
+		"debugExceptionWidget.border":"#00000010",
+		"editorMarkerNavigation.background":"#f7f8fa",
+		"peekView.border":"#00000010",
+		"peekViewEditor.background":"#00000000",
+		"peekViewEditorGutter.background":"#00000000",
+		"peekViewEditor.matchHighlightBackground":"#c9652050",
+		"peekViewEditor.matchHighlightBorder":"#00000000",
+		"peekViewEditorStickyScroll.background":"#FFFFFF",
+		"peekViewResult.background":"#f7f8fa",
+		"peekViewResult.matchHighlightBackground":"#c9652050",
+		"peekViewResult.selectionBackground":"#00000016",
+		"peekViewTitle.background":"#f7f8fa",
+		"panel.background":"#f7f8fa",
+		"panel.border":"#00000010", //已更正
+		"panel.dropBorder":"#00000000",
+		"panelInput.border":"#00000000",
+		"panelSection.border":"#00000010", //已更正
+		"panelSection.dropBackground":"#00000010",
+		"panelSectionHeader.background":"#f7f8fa",
+		"panelSectionHeader.border":"#00000010", //已更正
+		"statusBar.foreground": "#222222",
+		"statusBar.background":"#f7f8fa",
+		"statusBar.border":"#00000010", //已更正
+		"statusBar.debuggingBackground":"#f7f8fa",
+		"statusBar.noFolderBackground":"#f7f8fa",
+		"statusBarItem.activeBackground":"#00000000",
+		"statusBarItem.hoverBackground":"#00000000",
+		"statusBarItem.prominentBackground":"#00000000",
+		"statusBarItem.prominentHoverBackground":"#00000000",
+		"statusBarItem.remoteForeground": "#222222",
+		"statusBarItem.remoteBackground":"#00000000",
+		"statusBarItem.remoteHoverBackground":"#00000000",
+		"statusBarItem.compactHoverBackground":"#00000000",
+		"statusBarItem.errorBackground":"#00000000",
+		"statusBarItem.warningBackground":"#00000000",
+		"statusBar.focusBorder": "#00000000",
+		"titleBar.activeBackground":"#f7f8fa",
+		"titleBar.border":"#00000010", //已更正
+		"menubar.selectionBackground": "#00000000",
+		"menubar.selectionBorder": "#00000030",
+		"menu.background":"#f7f8fa",
+		"menu.border":"#00000010",
+		"menu.selectionBackground":"#268fffAA",
+		"menu.separatorBackground":"#00000010",
+		"commandCenter.background":"#00000000", //菜单栏中间的搜索框
+		"commandCenter.border":"#00000010",
+		"commandCenter.activeBackground": "#00000000",
+		"commandCenter.activeBorder":"#00000036", //已更正
+		"commandCenter.inactiveBorder": "#00000010",
+		"notificationCenter.border":"#00000010",
+		"notificationCenterHeader.background":"#f7f8fa",
+		"notificationToast.border":"#00000010",
+		"notifications.border":"#00000010",
+		"notificationsErrorIcon.foreground":"#a11922",
+		"notificationsWarningIcon.foreground":"#ac8700",
+		"notificationsInfoIcon.foreground":"#077aab",
+		"banner.background":"#f7f8fa",
+		"banner.iconForeground":"#954595",
+		"extensionButton.separator":"#00000010",
+		"extensionIcon.verifiedForeground":"#1e6dc2",
+		"extensionIcon.sponsorForeground":"#1e6dc2",
+		"inputValidation.errorBackground":"#f7f8fa",
+		"inputValidation.errorBorder": "#00000010",
+		"inputValidation.errorForeground":"#a11922",
+		"inputValidation.warningBackground":"#f7f8fa",
+		"inputValidation.warningBorder": "#00000010",
+		"inputValidation.warningForeground":"#ac8700",
+		"inputValidation.infoBackground":"#f7f8fa",
+		"inputValidation.infoBorder": "#00000010",
+		"inputValidation.infoForeground":"#077aab",
+		"input.background":"#FFFFFF",
+		"input.border":"#00000010",
+		"inputOption.activeBackground":"#f7f8fa",
+		"inputOption.activeBorder":"#00000050",
+		"inputOption.hoverBackground":"#00000010",
+		"scrollbarSlider.background": "#00000016",
+		"scrollbarSlider.hoverBackground":"#00000036",
+		"scrollbarSlider.activeBackground":"#00000036", //已更正
+		"pickerGroup.border":"#00000010",
+		"quickInput.background":"#f7f8fa",
+		"quickInputList.focusBackground":"#00000016",
+		"quickInputTitle.background":"#f7f8fa",
+		"keybindingTable.headerBackground":"#f7f8fa",
+		"keybindingTable.rowsBackground":"#00000000",
+		"terminal.background":"#FFFFFF",
+		"terminal.border":"#00000010",
+		"terminal.foreground":"#007d19",
+		"terminal.selectionBackground":"#00000025",
+		"terminal.findMatchBackground":"#c96520",
+		"terminal.findMatchHighlightBackground":"#00000000",
+		"terminal.findMatchHighlightBorder":"#c96520",
+		"terminal.dropBackground":"#00000010",
+		"terminalCommandDecoration.successBackground":"#007d19",
+		"terminalCommandDecoration.errorBackground":"#a11922",
+		"terminal.ansiBlack":"#f7f8fa",
+		"terminal.ansiBlue":"#0033b3",
+		"terminal.ansiCyan":"#077aab",
+		"terminal.ansiGreen":"#007d19",
+		"terminal.ansiMagenta":"#954595",
+		"terminal.ansiRed":"#a11922",
+		"terminal.ansiWhite":"#333333",
+		"terminal.ansiYellow":"#c96520",
+		"terminal.ansiBrightBlack":"#f7f8fa",
+		"terminal.ansiBrightBlue":"#0033b3",
+		"terminal.ansiBrightCyan":"#077aab",
+		"terminal.ansiBrightGreen":"#007d19",
+		"terminal.ansiBrightMagenta":"#954595",
+		"terminal.ansiBrightRed":"#a11922",
+		"terminal.ansiBrightWhite":"#333333",
+		"terminal.ansiBrightYellow":"#c96520",
+		"debugToolBar.background":"#f7f8fa",
+		"debugToolBar.border":"#00000010",
+		"welcomePage.tileBackground":"#00000000",
+		"welcomePage.tileHoverBackground":"#00000000",
+		"welcomePage.background":"#FFFFFF",
+		"walkThrough.embeddedEditorBackground":"#FFFFFF",
+		"gitDecoration.addedResourceForeground":"#007d19",
+		"gitDecoration.modifiedResourceForeground":"#0033b3",
+		"gitDecoration.deletedResourceForeground":"#a11922",
+		"gitDecoration.stageModifiedResourceForeground":"#0033b3",
+		"gitDecoration.renamedResourceForeground":"#ac8700",
+		"gitDecoration.stageDeletedResourceForeground":"#a11922",
+		"gitDecoration.untrackedResourceForeground":"#954595",
+		"gitDecoration.ignoredResourceForeground":"#222222",
+		"settings.modifiedItemIndicator":"#285cb2CC",
+		"settings.dropdownBackground":"#f7f8fa",
+		"settings.dropdownBorder":"#00000010",
+		"settings.checkboxBackground":"#f7f8fa",
+		"settings.checkboxBorder":"#00000036", //已更正
+		"settings.rowHoverBackground":"#00000000",
+		"settings.textInputBackground":"#FFFFFF",
+		"settings.textInputBorder":"#00000036", //已更正
+		"settings.numberInputBackground":"#FFFFFF",
+		"settings.numberInputBorder":"#00000036", //已更正
+		"settings.focusedRowBackground":"#f7f8fa",
+		"settings.focusedRowBorder":"#00000000",
+		"settings.headerBorder":"#00000010",
+		"settings.sashBorder":"#00000010",
+		"settings.settingsHeaderHoverForeground":"#222222",
+		"breadcrumb.background":"#f7f8fa",
+		"breadcrumb.focusForeground":"#222222",
+		"breadcrumb.activeSelectionForeground":"#222222",
+		"breadcrumbPicker.background":"#f7f8fa",
+		"editor.snippetTabstopHighlightBackground":"#00000010",
+		"editor.snippetTabstopHighlightBorder":"#00000050",
+		"editorGutter.deletedBackground": "#a11922",
+		"editorGutter.addedBackground": "#007d19",
+		"editorGutter.modifiedBackground": "#0033b3",
+		"minimapGutter.deletedBackground": "#a11922",
+		"minimapGutter.addedBackground": "#007d19",
+		"minimapGutter.modifiedBackground": "#0033b3",
+		"list.warningForeground": "#ac8700" //补充，亮色特有
+	},
+	"tokenColors": [
+		{
+			"name": "注释",
+			"scope":"comment",
+			"settings": {
+				"foreground": "#8F8F8F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "常量值",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#077aab",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "关键字",
+			"scope":"keyword",
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "无效内容",
+			"scope":"invalid",
+			"settings": {
+				"foreground": "#a11922",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "标记文本",
+			"scope":"markup",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "常规数据",
+			"scope":"meta",
+			"settings": {
+				"foreground": "#333333",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "结构与对象",
+			"scope":"storage",
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "字符串",
+			"scope": "string",
+			"settings": {
+				"foreground": "#007d19",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "特殊",
+			"scope": "support",
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		//Web支持与基本色
+		{
+			"scope":[
+				"keyword.operator", //操作符样式
+				"variable.parameter.keyframe-list", //@Keyframes名称颜色
+				"punctuation.definition.entity" //CSS选择器符号样式
+			],
+			"settings": {
+				"foreground": "#333333",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source support.function", //css方法
+				"entity.other.keyframe-offset", //CSS form to样式
+				"keyword.operator.logical" //CSS and样式
+			],
+			"settings": {
+				"foreground": "#333333",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"meta.function.definition entity.name.function", //声明函数的函数名样式
+				"meta.definition.function", //声明函数的函数名样式
+				"meta.definition.method", //声明方法的函数名样式
+				"keyword.control.at-rule", //CSS@规则样式
+				"support.constant" //CSS常量名如screen
+			],
+			"settings": {
+				"foreground": "#954595",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.function-call entity.name.function" //以调用形式的函数名样式
+			],
+			"settings": {
+				"foreground": "#954595",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"entity.name.tag", //html标签样式
+				"meta.definition.variable", //声明变量名称样式
+				"meta.definition.variable variable.other.constant", //声明常量时的变量名称样式
+				"variable.other.property", //调用对象属性名称样式
+				"variable.object.property", //类属性名称样式
+				"variable.parameter", //函数参数名样式
+				"meta.selector entity.other.attribute-name", //CSS中的其他选择器样式
+				"meta.selector entity.name.tag" //CSS中的元素选择器样式
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"variable.other.constant.property", //调用对象常量属性名称样式
+				"variable.other.enummember", //枚举类对象名称样式
+				"support.variable.property" //特殊属性如length
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"constant.character.escape", //转义字符样式
+				"constant.other.character-class.regexp", //正则表达式转义字符样式
+				"keyword.control.anchor.regexp", //正则表达式关键转义字符颜色
+				"constant.other.color", //CSS颜色字符样式
+				"support.constant.color", //CSS颜色字符样式
+				"meta.template.expression", //插值表达式
+				"expression.embedded.vue", //Vue插值表达式
+				"constant.character.entity", //html字符实体
+				"constant.character.entity punctuation.definition.entity", //字符实体符号颜色
+				"variable.parameter.url" //css链接颜色
+			],
+			"settings": {
+				"foreground": "#ac8700",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"keyword.operator.new", //new关键字样式
+				"variable.language.this", //this关键字样式
+				"variable.language.super", //super关键字样式
+				"keyword.operator.expression", //of,instanceof,in等关键字
+				"entity.other.attribute-name", //html元素属性名称样式
+				"keyword.operator.quantifier.regexp", //正则表达式控制出现频率{0,?}
+				"entity.other.attribute-name.css" //css属性选择器属性名称
+			],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"variable.argument.css", //css变量名称样式
+				"variable.css" //css变量名称样式
+			],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"punctuation.definition.tag.begin", //html括号样式
+				"punctuation.definition.tag.end"
+			],
+			"settings": {
+				"foreground": "#5F5F5F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"keyword.other.unit", //CSS百分比px等符号样式
+				"punctuation.definition.group.regexp", //正则表达式圆括号样式
+				"meta.group.regexp", //正则表达式圆括号组结构
+				"keyword.operator.or.regexp" //正则表达式或运算符
+			],
+			"settings": {
+				"foreground": "#077aab",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.name.type.instance.jsdoc", //js文档注释
+				"support.constant.property-value", //CSS属性值样式
+				"support.constant.font-name.css" //CSS字体属性
+			],
+			"settings": {
+				"foreground": "#007d19",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"constant.language", //json boolean & null 颜色
+				"constant.language.null", //null常量样式
+				"constant.language.boolean.true", //true值 颜色
+				"constant.language.boolean.false", //false值 颜色
+				"entity.other.attribute-name.pseudo-class", //伪元素选择器
+				"entity.other.attribute-name.pseudo-element", //伪类选择器
+				"meta.assertion", //正则表达式预查语句关键字颜色
+				"meta.group.assertion.regexp punctuation.definition.group.regexp", //正则表达式断言括号颜色
+				"meta.group.assertion.regexp keyword.operator.or.regexp", //正则表达式断言或运算符
+				"meta.group.assertion.regexp", //正则表达式断言结构颜色
+				"string.regexp punctuation.definition.string", //正则表达式斜线颜色
+				"string.regexp keyword.other" //正则表达式匹配类型颜色
+			],
+			"settings": {
+				"foreground": "#a43d43",
+				"fontStyle": ""
+			}
+		},
+		//Markdown支持 .md
+		{
+			"scope":[
+				"text.html.markdown", /*默认前景色*/
+				"text.html.markdown meta", 
+				"text.html.markdown markup.heading", //标记符后空格
+				"markup.quote.markdown", //区块缩进
+				"markup.list.unnumbered.markdown", /*列表缩进*/
+				"markup.list.numbered.markdown",
+				"punctuation.definition.bracket.curly.begin.jsdoc", /*js函数签名花括号*/
+				"punctuation.definition.bracket.curly.end.jsdoc"
+			],
+			"settings": {
+				"foreground": "#333333",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown punctuation.definition.markdown", //标记符
+				"text.html.markdown fenced_code.block.language.markdown", //标记语言
+				"text.html.markdown punctuation.definition.heading.markdown", //标记符:标题#
+				"text.html.markdown punctuation.definition.list.begin.markdown", //标记符:列表
+				"text.html.markdown punctuation.definition.quote.begin.markdown", //标记符:区块
+				"text.html.markdown punctuation.definition.italic.markdown", //标记符:斜体字
+				"text.html.markdown punctuation.definition.bold.markdown", //标记符:粗体字
+				"text.html.markdown punctuation.definition.strikethrough.markdown", //标记符:删除字
+				"text.html.markdown markup.heading.setext", //标题元素标记=-
+				"text.html.markdown meta.separator", //分割线
+				"text.html.markdown punctuation.definition.math.begin.markdown", //数学作用域
+				"text.html.markdown punctuation.definition.math.end.markdown", //数学作用域
+				"text.html.markdown punctuation.definition.table.markdown", //表格 | 结构
+				"text.html.markdown punctuation.separator.table.markdown" //表格标志
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown string.other.link.description.title.markdown", //传参
+				"text.html.markdown string.other.link.title.markdown", //变量超链接文本
+				"text.html.markdown markup.table.markdown", //表格文本
+				"text.html.markdown string.other.link.description.markdown", //图片alt文本
+				"text.html.markdown meta.embedded.math.markdown"//数学文本
+			],
+			"settings": {
+				"foreground": "#ac8700", //包围字符配色
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.bold.markdown" //粗体字
+			],
+			"settings": {
+				"foreground": "#ac8700",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.italic.markdown" //斜体字
+			],
+			"settings": {
+				"foreground": "#ac8700",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.strikethrough.markdown" //删除字
+			],
+			"settings": {
+				"foreground": "#ac8700",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.bold.markdown markup.italic.markdown" //斜粗体字
+			],
+			"settings": {
+				"foreground": "#ac8700",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown meta.paragraph", //段落文本
+				"text.html.markdown entity.name.section", //标记符后文本
+				"text.html.markdown markup.raw.block", //代码块
+				"text.html.markdown markup"  //默认文本色
+			],
+			"settings": {
+				"foreground": "#007d19", //常规字符配色
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown constant.other.reference.link.markdown", //引用链接变量
+				"text.html.markdown punctuation.line.separator.math.tex" //数学作用域换行
+			],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.markdown markup.underline.link.markdown", //超链接
+				"text.html.markdown markup.underline.link.image.markdown" //超链接图片
+			],
+			"settings": {
+				"foreground": "#077aab",
+				"fontStyle": ""
+			}
+		},
+		//Log支持，.log
+		{
+			"scope":[
+				"source.log meta.block"
+			],
+			"settings": {
+				"foreground": "#5F5F5F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.log meta.block.object.symbol",
+				"source.log meta.block.node.symbol",
+				"source.log meta.block.list.symbol",
+				"source.log meta.block.array.symbol"
+			],
+			"settings": {
+				"foreground": "#5F5F5FC0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.log text.date",
+				"source.log text.time"
+			],
+			"settings": {
+				"foreground": "#8F8F8F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.log text.url"
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.log"
+			],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.log constant.number",
+				"source.log string",
+				"source.log log.constant",
+				"source.log meta.import.path"
+			],
+			"settings": {
+				"foreground": "#007d19",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":["source.log markup.info","source.log markup.debug"],
+			"settings": {
+				"foreground": "#077aab",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"source.log markup.warning",
+			"settings": {
+				"foreground": "#ac8700",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":["source.log markup.error","source.log log.exceptiontype",],
+			"settings": {
+				"foreground": "#a11922",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"source.log log.exception",
+			"settings": {
+				"foreground": "#a43d43",
+				"fontStyle": ""
+			}
+		},
+		//yaml支持，.yml
+		{
+			"scope":"entity.name.tag.yaml",
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		//tonl支持，.tonl
+		{
+			"scope":[
+				"support.type.property-name.table.toml",
+				"support.type.property-name.array.toml"
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		//java-properties支持，.properties
+		{
+			"scope":"support.constant.java-properties",
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		//cfg支持,minecraft-cfg
+		{
+			"scope":"source.cfg meta.object.name",
+			"settings": {
+				"foreground": "#954595",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":["source.cfg meta.type","source.cfg meta.property.name"],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"source.cfg meta.attribute.name",
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.cfg meta.attribute.value",
+				"source.cfg meta.property.value"
+			],
+			"settings": {
+				"foreground": "#007d19",
+				"fontStyle": ""
+			}
+		},
+		//ini支持
+		{
+			"scope":"source.ini meta.object.name",
+			"settings": {
+				"foreground": "#954595",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"source.ini meta.type",
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":"source.ini meta.attribute.name",
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		//编程语言高亮支持
+		{
+			"scope":[
+				"text", //默认文本配色
+				"source", //默认编程语言配色
+				"punctuation.bracket.angle", //Java泛型括号颜色
+				"punctuation.separator.delimiter", //Java泛型逗号颜色
+				"storage.type.java", //Java默认类名颜色
+				"storage.type.generic.java", //Java包装类颜色
+				"storage.modifier.import.java", //Java导入模块颜色
+				"variable.other.php", //php变量颜色
+				"punctuation.section.array.begin.php", //中括号颜色
+				"punctuation.section.array.end.php", //中括号颜色
+				"punctuation.definition.variable.php", //php符号颜色
+				"meta.enum.object" //Rust对象枚举
+			],
+			"settings": {
+				"foreground": "#333333",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.create-struct.name" //Rust创建结构体
+			],
+			"settings": {
+				"foreground": "#333333",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"support.function.builtin", //函数名称颜色Python
+				"entity.name.function.php", //函数名颜色php
+				"entity.name.function.cs", //函数名颜色c#
+				"entity.name.function.go", //函数名颜色Go
+				"meta.enum.tuple", //Rust列表枚举
+				"entity.name.function.lua" //Lua函数声明颜色
+			],
+			"settings": {
+				"foreground": "#954595",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.function.call entity.name.function", //调用函数颜色 Rust
+				"entity.name.function.call", //调用函数颜色C++
+				"meta.method-call entity.name.function", //调用函数颜色Java
+				"meta.function-call support.function.builtin", //调用函数颜色Python
+				"meta.function-call.generic", //调用方法Python
+				"meta.function-call.php entity.name.function.php", //函数调用php
+				"mata.new-class.name", //调用new Class时，Class颜色
+				"meta.function-call.name.cs", //C#调用方法/函数配色
+				"entity.name.function.support", //调用方法颜色Go
+				"support.function.any-method.lua", //调用函数Lua
+				"support.function.lua" //调用内置函数Lua
+			],
+			"settings": {
+				"foreground": "#954595",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"entity.name.type.numeric", //数字类型
+				"entity.name.type.primitive" //布尔&字符串切片类型
+			],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.name.function.macro", //Rust宏声明&调用
+				"support.function.construct", //php内置函数
+				"entity.name.type.result.rust", //RustOk()
+				"entity.name.type.option.rust" //RustSome()
+			],
+			"settings": {
+				"foreground": "#c96520",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"punctuation.definition.interpolation", //插值表达式括号
+				"meta.interpolation" // 插值参数颜色
+			],
+			"settings": {
+				"foreground": "#ac8700", 
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.name.variable.field.cs", //C#变量声明颜色
+				"entity.name.variable.parameter.cs", 
+				"entity.name.variable.local.cs",
+				"variable.other.object.property.cs", //C#调用对象成员属性颜色
+				"variable.other.assignment.go", //go语言变量名声明与赋值颜色
+				"meta.variable.defined", //变量声明颜色
+				"meta.object.property", //属性变量颜色
+				"meta.enum.variable" //Rust枚举变量
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.variable.const.defined", //常量声明颜色
+				"meta.object.const.property", //属性常量颜色
+				"meta.const", //枚举常量颜色
+				"constant.other.caps.rust" //Rust常量
+			],
+			"settings": {
+				"foreground": "#0033b3",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}

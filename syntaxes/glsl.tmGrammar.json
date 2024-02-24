@@ -1,0 +1,8 @@
+{
+    "scopeName": "source.glsl",
+    "patterns": [
+        {
+            "include": "source.cpp"
+        }
+    ]
+}
