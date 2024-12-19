@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body,
+        .menu {
+            margin: 0;
+            width: 100%;
+            background-color: rgb(220, 214, 215);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .colors {
+            margin: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .color-block {
+            width: 80px;
+            min-width: 80px;
+            height: 80px;
+            margin: 30px;
+            background-color: var(--color, white);
+            border-radius: 10%;
+            text-align: center;
+        }
+
+        .color-block::after {
+            content: attr(color-hex);
+            position: relative;
+            top: 90px;
+        }
+
+        .title {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        const dark_theme = document.createElement("div");
+        dark_theme.setAttribute("class", "dark-theme menu");
+        {
+            const dark_theme_title = document.createElement("h1");
+            dark_theme_title.setAttribute("class", "dark-theme title");
+            dark_theme_title.innerText = "Dark";
+            dark_theme.appendChild(dark_theme_title);
+            const dark_theme_colors = document.createElement("div");
+            dark_theme_colors.setAttribute("class", "dark-theme colors");
+            {
+                [
+                    '#000000', '#222222', '#707070', '#A0A0A0', '#CCCCCC',
+                    '#DDDDDD', '#FFFFFF', '#FF0000', '#FFFF00', '#00FFFF',
+                    '#1e1f22', '#2b2d30', '#1b6bbb', '#3088e0', '#CE6f30',
+                    '#4e99e4', '#4ebbe4', '#DA5050', '#cf7777', '#cf9977',
+                    '#D7BA7D', '#6AAA70', '#60b7b7', '#55A0D0', '#c787c7'
+                ].forEach(color => {
+                    const color_block = document.createElement("div");
+                    color_block.setAttribute("class", "dark-theme color-block");
+                    color_block.setAttribute("style", "--color:" + color);
+                    dark_theme_colors.appendChild(color_block);
+                })
+            }
+            dark_theme.appendChild(dark_theme_colors);
+        }
+        document.body.appendChild(dark_theme);
+
+        const light_theme = document.createElement("div");
+        light_theme.setAttribute("class", "light-theme menu");
+        {
+            const light_theme_title = document.createElement("h1");
+            light_theme_title.setAttribute("class", "light-theme title");
+            light_theme_title.innerText = "Light";
+            light_theme.appendChild(light_theme_title);
+            const light_theme_colors = document.createElement("div");
+            light_theme_colors.setAttribute("class", "light-theme colors");
+            {
+                [
+                    '#FFFFFF', '#DDDDDD', '#8F8F8F', '#5F5F5F', '#333333',
+                    '#222222', '#000000', '#FF0000', '#eece00', '#00cfcf',
+                    '#268fff', '#f7f8fa', '#285cb2', '#1e6dc2', 
+                    '#0057b7', '#239ec5', '#a11922', '#a43d43', '#c96520',
+                    '#ac8700', '#007d19', '#0e9994', '#0033b3', '#954595'
+                ].forEach(color => {
+                    const color_block = document.createElement("div");
+                    color_block.setAttribute("class", "light-theme color-block");
+                    color_block.setAttribute("style", "--color:" + color);
+                    light_theme_colors.appendChild(color_block);
+                })
+            }
+            light_theme.appendChild(light_theme_colors);
+        }
+        document.body.appendChild(light_theme);
+
+        document.querySelectorAll(".color-block").forEach(element => {
+            element.setAttribute("color-hex", element.style.getPropertyValue("--color"));
+        });
+    </script>
+</body>
+
+</html>

@@ -195,7 +195,7 @@
 		"statusBarItem.hoverBackground":"#FFFFFF00",
 		"statusBarItem.prominentBackground":"#FFFFFF00",
 		"statusBarItem.prominentHoverBackground":"#FFFFFF00",
-		"statusBarItem.remoteForeground": "#222222",
+		"statusBarItem.remoteForeground": "#DDDDDD",
 		"statusBarItem.remoteBackground":"#FFFFFF00",
 		"statusBarItem.remoteHoverBackground":"#FFFFFF00",
 		"statusBarItem.compactHoverBackground":"#FFFFFF00",
@@ -406,7 +406,7 @@
 			"scope":[
 				"source support.function", //css方法
 				"entity.other.keyframe-offset", //CSS form to样式
-				"keyword.operator.logical" //CSS and样式
+				"keyword.operator.logical.css" //CSS and样式
 			],
 			"settings": {
 				"foreground": "#CCCCCC",
@@ -415,6 +415,7 @@
 		},
 		{
 			"scope":[
+				"meta.function-call entity.name.function", //以调用形式的函数名样式
 				"meta.function.definition entity.name.function", //声明函数的函数名样式
 				"meta.definition.function", //声明函数的函数名样式
 				"meta.definition.method", //声明方法的函数名样式
@@ -428,16 +429,8 @@
 		},
 		{
 			"scope":[
-				"meta.function-call entity.name.function" //以调用形式的函数名样式
-			],
-			"settings": {
-				"foreground": "#c787c7",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope":[
 				"entity.name.tag", //html标签样式
+				"meta.import variable.other.readwrite.alias", //js导入模块颜色
 				"meta.definition.variable", //声明变量名称样式
 				"meta.definition.variable variable.other.constant", //声明常量时的变量名称样式
 				"variable.other.property", //调用对象属性名称样式
@@ -909,7 +902,7 @@
 			],
 			"settings": {
 				"foreground": "#c787c7",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -931,7 +924,7 @@
 			],
 			"settings": {
 				"foreground": "#cf9977",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -953,7 +946,8 @@
 				"variable.other.assignment.go", //go语言变量名声明与赋值颜色
 				"meta.variable.defined", //变量声明颜色
 				"meta.object.property", //属性变量颜色
-				"meta.enum.variable" //Rust枚举变量
+				"meta.enum.variable", //Rust枚举变量
+				"constant.other.caps.rust" //Rust常量
 			],
 			"settings": {
 				"foreground": "#55A0D0",
@@ -964,8 +958,7 @@
 			"scope":[
 				"meta.variable.const.defined", //常量声明颜色
 				"meta.object.const.property", //属性常量颜色
-				"meta.const", //枚举常量颜色
-				"constant.other.caps.rust" //Rust常量
+				"meta.const" //枚举常量颜色
 			],
 			"settings": {
 				"foreground": "#55A0D0",
